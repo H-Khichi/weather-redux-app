@@ -1,0 +1,71 @@
+.app-container {
+  text-align: center;
+  padding: 20px;
+  height: 114vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: -150px;
+
+}
+
+.app-container.light {
+  background-color: rgb(247, 253, 247);
+}
+
+.app-container.dark {
+  background-color: rgb(31, 31, 32);
+  color: black;
+}
+h1{
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.weather-details{
+  background: #dddcdc;
+  padding: 20px;
+  border-radius: 5px;
+  width: 300px;
+}
+input {
+  padding: 10px;
+    margin-right: 10px;
+    outline: none;
+    border: none;
+    background: none;
+    border-bottom: 1px solid rgb(156, 151, 151);
+}
+button{
+  border-radius: 5px;
+  padding: 10px;
+    outline: none;
+    border: none;
+    background: #000;
+    color: #f9fafb;
+    border-radius: 3px;
+}
+.data{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.weather-det.light p{
+  padding: 10px;
+}
+.weather-det.light  h3{
+  margin: 20px;
+}
+.weather-det.dark{
+  color: black;
+}
+.weather-det.dark p{
+  padding: 10px;
+}
+.weather-det.dark  h3{
+  margin: 20px;
+}
